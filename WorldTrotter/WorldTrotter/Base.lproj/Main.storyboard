@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RG-Ih-EWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1393.5" y="35.5"/>
+            <point key="canvasLocation" x="1610" y="35"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0Pm-yH-kTy">
@@ -121,15 +121,27 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="4dP-LT-vHd"/>
                         <segue destination="axB-nf-rIp" kind="relationship" relationship="viewControllers" id="ZUY-5o-1vr"/>
+                        <segue destination="8VW-Om-Eld" kind="relationship" relationship="viewControllers" id="dgv-Eb-k7F"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bF9-nJ-42v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="806.5" y="35.5"/>
         </scene>
+        <!--Web-->
+        <scene sceneID="9Ca-HM-pTb">
+            <objects>
+                <viewController id="8VW-Om-Eld" userLabel="Web" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" image="WebIcon" id="oDn-he-lPP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7JO-pF-F5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806" y="805"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ConvertIcon" width="48" height="32"/>
         <image name="MapIcon" width="48" height="32"/>
+        <image name="WebIcon" width="48" height="32"/>
     </resources>
 </document>
